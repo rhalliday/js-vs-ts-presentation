@@ -1,3 +1,9 @@
+/**
+ * Log out the name, their age and their folical status
+ * @param {string} name name of the person
+ * @param {number} age age of the person
+ * @param {boolean} hasHair whether the person has hair
+ */
 function multiArgJS(name, age, hasHair) {
   if (typeof name !== "string") {
     throw Error("multiArgJS needs a string name");

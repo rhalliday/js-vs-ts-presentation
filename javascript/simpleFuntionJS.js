@@ -1,3 +1,9 @@
+/**
+ * Greet someone
+ *
+ * @param {string} name name of the person to greet
+ * @returns {string} the greeting
+ */
 function greetingJS(name) {
   if (typeof name !== "string") {
     throw Error("greeting expects a string name");

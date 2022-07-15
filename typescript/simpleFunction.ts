@@ -1,3 +1,9 @@
+/**
+ * Greet a person
+ *
+ * @param name the name of the person to greet
+ * @returns a greeting
+ */
 function greetingTS(name: string): string {
   return `hello ${name}`;
 }

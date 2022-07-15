@@ -22,6 +22,10 @@ interface Book {
 
 const library: Book[] = [];
 
+/**
+ * Adds a book to the library
+ * @param book book to add to library
+ */
 function addToLibrary(book: Book): void {
   library.push(book);
 }
